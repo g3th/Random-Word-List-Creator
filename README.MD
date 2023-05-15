@@ -5,4 +5,4 @@ This script creates a list of random unordered words to test on search/sort algo
 
 It will create an unordered word list, from an existing 466k words dictionary, which can be ordered, and will create a query list which can be used on the previous list.
 
-Writes both lists to files in directories of your choice.
+Reads dictionary from and writes both lists to your Desktop directory.
