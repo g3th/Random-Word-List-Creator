@@ -20,7 +20,7 @@ fun main(){
         File("${userDir}random_words").appendText("${i.lowercase()}\n")
     }
     val readRandomWordsFile = File("${userDir}random_words").readLines()
-    println("number of queries (max: (${directory.size -1}): ")
+    println("number of queries (max: (${directory.size}): ")
     val q = readln().toInt()
     while (counter != q){
         query.add(readRandomWordsFile.random())
